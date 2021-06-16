@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HomeImg from "./assets/joshua-hoehne.jpg";
 
@@ -15,7 +14,7 @@ function App() {
             <span className="navbar-link">About</span>
           </div>
         </navbar>
-        <img src={HomeImg} className="home-img fade-in" />
+        <img src={HomeImg} alt="Book" className="home-img fade-in" />
 
         <div className="home-container">
           <div>
